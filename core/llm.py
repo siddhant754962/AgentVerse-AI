@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
-MODEL_NAME=openai/gpt-oss-20b
+MODEL_NAME="openai/gpt-oss-20b"
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
